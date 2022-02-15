@@ -1,19 +1,25 @@
 {
-  "name": "user-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mageowl/user-server.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mageowl/user-server/issues"
-  },
-  "homepage": "https://github.com/mageowl/user-server#readme"
+	"name": "user-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mageowl/user-server.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mageowl/user-server/issues"
+	},
+	"homepage": "https://github.com/mageowl/user-server#readme",
+	"dependencies": {
+		"body-parser": "^1.19.1",
+		"express-handlebars": "^6.0.2",
+		"express.js": "^1.0.0"
+	}
 }
