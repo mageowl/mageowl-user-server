@@ -18,6 +18,10 @@ const users = {
 	}
 };
 
+app.get("/", (_req, res) => {
+	res.redirect("https://mageowlstudios.com");
+});
+
 app.get("/:user/", (req, res) => {
 	res.render("profile", { name: req.params.user });
 });
